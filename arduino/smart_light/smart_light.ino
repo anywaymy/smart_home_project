@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "Keenetic-4678";
-const char* password = "mop754lop";
+const char* ssid = "ВАШ_WIFI_SSID";
+const char* password = "ВАШ_WIFI_ПАРОЛЬ";
 
 ESP8266WebServer server(80);
 int ledPin = D0;  // Или используйте 16 для GPIO16
